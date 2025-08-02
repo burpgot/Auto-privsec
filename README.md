@@ -23,7 +23,7 @@ chmod +x privesc_helper.sh
 4. Check the results in `privesc_report.txt`.
 
 <p align="center">
-  <img src="demo.jpg" alt="Auto-privsec Demo Screenshot" width="900px">
+  <img src="demo.jpg" alt="Auto-privsec Demo Screenshot" width="970px">
 </p>
 
 
