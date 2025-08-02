@@ -1,4 +1,4 @@
-# ZAR Privilege Escalation Helper Tool
+# Privilege Escalation Helper Tool
 
 This is a beginner-friendly privilege escalation enumeration tool designed for Linux systems. It automatically checks for:
 - SUID binaries and matches them against GTFOBins
