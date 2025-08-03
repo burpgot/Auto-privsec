@@ -29,13 +29,16 @@ chmod +x privesc_helper.sh
 </p>
 
 
-## Notes
+## ⚙️ Requirements
 
-- The script requires `curl`, `bash`, and `tee`.
-- It does not exploit automatically — it assists with clear enumeration.
 
 ## License
 
+bash
+curl
+tee
+
+find, grep, awk
 MIT License
 
 Copyright (c) 2025 ZAR
