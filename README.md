@@ -31,14 +31,13 @@ chmod +x privesc_helper.sh
 
 ## ⚙️ Requirements
 
-
-## License
-
 bash
 curl
 tee
 
-find, grep, awk
+
+## License
+
 MIT License
 
 Copyright (c) 2025 ZAR
